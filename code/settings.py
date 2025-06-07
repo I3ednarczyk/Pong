@@ -4,12 +4,10 @@ from os.path import join
 WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
 SIZE = {'paddle': (40,100), 'ball': (30,30)}
 POS = {'player': (WINDOW_WIDTH - 50, WINDOW_HEIGHT / 2), 'opponent': (50, WINDOW_HEIGHT / 2)}
-SPEED = {'player': 500, 'opponent': 300, 'ball': 550}
+SPEED = {'player': 400, 'opponent': 300, 'ball': 550}
 COLORS = {
-    'paddle': '#ee322c',
-    'paddle shadow': '#b12521',
-    'ball': '#ee622c',
-    'ball shadow': '#c14f24',
-    'bg': '#002633',
-    'bg detail': '#003948'
+    'paddle': '#eb7e02',
+    'ball': '#db0000',
+    'bg': '#3f9b0b',
+    'bg detail': '#ffffff'
 }
